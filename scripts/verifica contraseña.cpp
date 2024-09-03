@@ -38,13 +38,13 @@ bool esSegura(const std::string& contrasena) {
 int main() {
     std::string contrasena;
 
-    std::cout << "Ingrese una contraseña: ";
+    std::cout << "Ingrese una contrasena: ";
     std::getline(std::cin, contrasena);
 
     if (esSegura(contrasena)) {
-        std::cout << "La contraseña es segura.\n";
+        std::cout << "La contrasena es segura.\n";
     } else {
-        std::cout << "La contraseña no es segura.\n";
+        std::cout << "La contrasena no es segura.\n";
     }
 
     return 0;
